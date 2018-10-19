@@ -10,7 +10,6 @@ public class InventoryScrpt : MonoBehaviour {
     public GameObject[] Items;
     public Sprite[] Image;
 
-    // Use this for initialization
     void Start () {
         NumOfInvenSlots = 8;
         Image = new Sprite[NumOfInvenSlots];
